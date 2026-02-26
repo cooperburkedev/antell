@@ -570,6 +570,20 @@ ul {
   border-radius: 8px;
 }
 
+/* ---------- Klaviyo Form Section ---------- */
+.klaviyo-form-section {
+  background: var(--charcoal);
+  color: var(--white);
+  padding: 2rem 1rem;
+}
+.klaviyo-form-section .klaviyo-form-wrapper {
+  max-width: 550px;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
+  margin: auto;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--black);
